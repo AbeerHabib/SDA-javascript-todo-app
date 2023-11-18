@@ -1,0 +1,200 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #03001C;
+}
+
+h1{
+    color: white;
+    font-size: 3rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.container{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+#todo-input{
+    width: 50rem;
+    height: 3rem;
+    margin-right: 1rem;
+    font-size: 1rem;
+    background-color: transparent;
+    padding-left: 1rem;
+    color: white;
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5rem;
+}
+
+#add-btn{
+    margin-left: 1rem;
+    width: 10rem;
+    height: 3rem;
+    font-size: 1rem;
+    background-color: #132043;
+    color: white;
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5rem;
+    cursor: pointer;
+}
+
+#add-btn:hover{
+background-color: transparent;
+transition: 0.3s;
+transition-duration: 0.3s;
+color: white;
+}
+
+#todo-list{
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+#counter{
+    width: 100%;
+    margin-top: 2rem;
+}
+
+#counter div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 2rem;
+    color: white;   
+}
+
+#total-todos, #completed-todos{
+    margin-left: 1rem;
+}
+
+#todos{
+    width: 100%;
+    margin-bottom: 1rem;
+}
+    
+.todoItem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    margin-left: auto; margin-right: auto;
+    margin-top: 2rem;
+    padding-top: 2.5rem; padding-bottom: 3rem;
+    background-color: #132043;
+    border-radius: 1rem;
+}
+
+.description{
+    width: 60%;
+    font-size: 1.2rem;
+    margin-left: 1rem;
+    color: white;
+    overflow-wrap: break-word;
+}
+
+.edit-btn{
+    width: 8rem;
+    height: 3rem;
+    font-size: 1rem;
+    margin-left: 1rem;
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5rem;
+    cursor: pointer;
+    background-color: #FFCF96;
+    color: orangered;
+}
+
+.delete-btn{
+    width: 8rem;
+    height: 3rem;
+    font-size: 1rem;
+    margin-left: 1rem;
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5rem;
+    cursor: pointer;
+    background-color: #F1B4BB;
+    color: red;
+}
+
+.edit-btn:hover, .delete-btn:hover{
+    transition: 0.3s;
+    transition-duration: 0.3s;
+    background-color: transparent;
+    color: white;
+}
+
+#checkbox{
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.filter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    margin-top: 2rem;
+    color: white;
+}
+
+.filter button {
+    margin-left: 1rem;
+    width: 10rem;
+    height: 3rem;
+    font-size: 1rem;
+    background-color: #132043;
+    color: white;
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5rem;
+    cursor: pointer;
+}
+
+.filter button:hover {
+    background-color: transparent;
+    transition: 0.3s;
+    transition-duration: 0.3s;
+    color: white;
+}
+
+.filter button:focus {
+    background-color: #1F4172;
+    color: white;
+}
